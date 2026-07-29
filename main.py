@@ -12,7 +12,7 @@ from twilio.http.http_client import TwilioHttpClient
 
 OWN_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 api_key = os.environ.get("OWN_API_KEY")
-account_sid = os.environ.get("ACCUNT_SID")
+account_sid = os.environ.get("ACCOUNT_SID")
 auth_token =  os.environ.get("AUTH_TOKEN")
 
 
